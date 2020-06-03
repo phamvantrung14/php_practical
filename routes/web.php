@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get("/list-book","bookController@index")->name("index");
-Route::get("/new-book","bookController@new")->name("new-book");
-Route::post("/save-book","bookController@save")->name("save-book");
-Route::post("/searh-title","bookController@search")->name("search");
+Route::get("/list-book","BookController@index")->name("index");
+Route::get("/new-book","BookController@new")->name("new-book");
+Route::post("/save-book","BookController@save")->name("save-book");
+Route::post("/searh-title","BookController@search")->name("search");

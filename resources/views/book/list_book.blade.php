@@ -22,16 +22,20 @@
             </form>
 
 
+
+
         </div>
     </div>
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="card">
             <div class="card-header">
-                <h5 class="mb-0">List Book </h5>
+                <h5 class="mb-0">List Book s</h5>
                 {{--                <p>This example shows DataTables and the RowGroup extension being used with Bootstrap 4 providing the styling.</p>--}}
             </div>
             <div class="card-header">
                 <a href="{{route("new-book")}}"class="float-right btn btn-outline-primary">+</a>
+                <a href="{{route("index")}}" class="btn btn-space btn-primary ">All</a>
+
             </div>
             <div class="card-body">
                 <div class="table-responsive">
